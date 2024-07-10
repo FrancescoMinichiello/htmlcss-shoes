@@ -6,11 +6,20 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html {
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
 /*Generics*/
 
 a {
     text-decoration: none;
 
+}
+
+a:hover {
+    scale: 1.1;
 }
 
 li {
@@ -24,6 +33,10 @@ h1 {
 ul {
     display: flex;
     gap: 30px;
+}
+
+img:hover {
+    scale: 1.1;
 }
 
 /*Utils*/
@@ -58,6 +71,10 @@ ul {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+}
+
+#converse {
+    margin-top: 100px;
 }
 
 /*side-menu*/
